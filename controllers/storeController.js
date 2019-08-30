@@ -1,8 +1,4 @@
 const mongoose = require('mongoose');
-require('../models/Store');
-require('../models/User');
-require('../models/Review');
-
 const Store = mongoose.model('Store');
 const User = mongoose.model('User');
 const multer = require('multer');
